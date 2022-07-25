@@ -25,6 +25,17 @@ select max(SALARY) from EMPLOYEES;
 
 select min(SALARY) from EMPLOYEES;
 
+select sum(SALARY) from EMPLOYEES;
+
+select avg(SALARY) from EMPLOYEES;
+
+select round(avg(SALARY)) from EMPLOYEES;
+select round(avg(SALARY),1) from EMPLOYEES;
+select round(avg(SALARY),2) from EMPLOYEES;
+select round(avg(SALARY),3) from EMPLOYEES;
+
+
+
 
 
 
