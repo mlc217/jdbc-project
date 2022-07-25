@@ -4,6 +4,9 @@ select * from departments;
 select * from EMPLOYEES
 where FIRST_NAME like 'B%';
 
+select count(*)  from JOBS
+where JOB_TITLE like '%Manager';
+
 
 select * from EMPLOYEES
 where FIRST_NAME like 'B____';
