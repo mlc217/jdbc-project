@@ -39,4 +39,8 @@ select substr(FIRST_NAME,0,1)|| '.'||substr(LAST_NAME,0,1)|| '.' from EMPLOYEES;
 
 select substr(FIRST_NAME,1,1)|| '.'||substr(LAST_NAME,1,1)|| '.' from EMPLOYEES;
 
+select FIRST_NAME,SALARY from EMPLOYEES
+where SALARY>3000
+order by lower(substr(FIRST_NAME, -3)) asc,SALARY desc ;
+
 
