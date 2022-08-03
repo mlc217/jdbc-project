@@ -55,6 +55,45 @@ where firstname='Dembe';
 select * from scrumteam
 order by employeeid;
 
+commit ;
+
+
+
+ALTER TABLE scrumteam
+add gender varchar(20);
+
+
+select * from scrumteam;
+
+update scrumteam
+set GENDER='Male';
+
+
+alter table scrumteam
+rename column salary to annual_salary;
+
+
+alter table scrumteam
+drop column gender;
+
+
+alter table scrumteam
+rename to agileteam;
+
+
+select  * from agileteam;
+
+
+TRUNCATE TABLE agileteam;
+
+drop table agileteam;
+
+commit ;
+
+
+
+
+
 
 
 
